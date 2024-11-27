@@ -1,0 +1,67 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: white;
+    line-height: 1.5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.sign-in-btn {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.hero h2 {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form input {
+    padding: 10px;
+    font-size: 1rem;
+    margin-right: 10px;
+    width: 300px;
+}
+
+form button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
